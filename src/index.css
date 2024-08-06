@@ -1,0 +1,134 @@
+/*body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*/
+
+/*
+h1{
+  background-color: cyan;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+  background-color: bisque;
+  color: black;
+  padding: 15px;
+}
+li{
+  font-size: 20px;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+
+*/
+
+/*Message APP TASK WEEK 6*/
+
+/* .main{
+  border: 1px solid black;
+  padding: 25px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .search{
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+} */
+
+/* .search input{
+  padding: 5px;
+  width: 70%;
+  border: none;
+  outline: none;
+} */
+
+/* .box{
+  background-color: #B6FFCE;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  width: 80%;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* .box1 h4{
+  margin: 0;
+  padding: 5px;
+}
+.box1 p{
+  margin: 0;
+  padding: 5px;
+}
+
+.box2 p{
+  padding: 5px;
+  margin: 0;
+  text-align: right;
+} */
+
+/* Counter APP Styles */
+
+.main{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.counter{
+  background-color: #B6FFCE;
+  /* border: 1px solid black; */
+  text-align: center;
+  padding: 30px;
+}
+.counter button{
+  padding: 5px 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 2px;
+  background-color: #207f4f;
+  color: white;
+}
+
+.random{
+  background-color: #ffb1b1;
+  padding: 45px;
+  text-align: center;
+}
+
+.random button{
+  background-color: #ff0d0d;
+  color: white;
+ border-radius: 3px;
+  border: none;
+  font-weight: bold;
+  padding:  10px 20px;
+}
