@@ -27,7 +27,6 @@ function About(){
   return(
     <div>
       <h2>About us</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam dolorum blanditiis hic, nesciunt quam porro. Deserunt aspernatur totam quaerat eaque, veritatis, iusto temporibus nulla, officia molestias in quisquam. Suscipit temporibus doloremque ex perspiciatis non consequatur pariatur repellendus aliquid corporis quam! Praesentium unde ea atque enim esse reprehenderit fugiat perferendis facere temporibus hic possimus perspiciatis repellat amet consectetur, dolore debitis itaque facilis rem harum obcaecati quo deleniti? Commodi sed, expedita tempora, explicabo, vel similique esse animi rerum ratione non modi? Iure iste consectetur eum earum at aspernatur officia animi soluta a numquam voluptatibus dolore commodi consequatur repellendus dolores delectus, ex quod!</p>
     </div>
   )
 }
@@ -57,9 +56,8 @@ root.render(
 // )
 
 
-
-
-/* Section 27 Props Task */
+/* Section 27 Props Task uding MAP function
+------------------------------------------------------------------------------------------------ */
 
 // import React from "react";
 // import ReactDOM from "react-dom/client";
@@ -112,7 +110,9 @@ root.render(
 
 
 
+
 // section 27 task -- week 6 React.js
+/*-----------------------------------------------------------------------------------------------*/
 //Search Component
 
 // function Search(){
@@ -141,7 +141,6 @@ root.render(
 //     </div>
 //   )
 // }
-
 
 //Arrays of Object ------ Message details
 // var data=[
@@ -189,32 +188,37 @@ root.render(
 //   </div>
 // )
 
-
-// import React from "react";
-// import ReactDOM from "react-dom/client";
-// import { useState } from "react";
-// import "./index.css"
-// // import Formcomp from "./Formcomp";
-// // import Cart from "./Formcomp";
-
-// //root 
-// const root=ReactDOM.createRoot(document.getElementById("root"));
-
-
-// root.render(
-//   <div>
-//     <Cart></Cart>
-//   </div>
-// )
-
+/*-----------------------------------Week 7 Usestate and Controlled components ---------------------------------------------------------------------------*/
 
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { useState } from "react";
-import "./index.css";
+import "./index.css"
+// import Formcomp from "./Formcomp";
+// import Cart from "./Formcomp";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+
+import Shopping from "./ShoppingList";
 
 //root 
 const root=ReactDOM.createRoot(document.getElementById("root"));
+
+
+root.render(
+  <div>
+    <Shopping/>
+  </div>
+)
+
+
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// import { useState } from "react";
+// import "./index.css";
+
+//root 
+// const root=ReactDOM.createRoot(document.getElementById("root"));
 
 //component
 
@@ -237,75 +241,73 @@ const root=ReactDOM.createRoot(document.getElementById("root"));
 //   )
 // }
 
-
 // root.render(
 //   <ChangemyCity/>
 // )
 
-
+/*-----------------------------Week 7 Assignment-------------------------*/
 //Counter App 
 
-//coomponent
+//component
 
-function Counter(){
+// function Counter(){
 
-  //state
-  var [count,setmyCount]=useState(0);
-  var [random,setRandom]=useState(0);
+//   //state
+//   var [count,setmyCount]=useState(0);
+//   var [random,setRandom]=useState(0);
 
-
-  ///counter functions
+  //counter functions
   //increment 
-  function increment(){
-    setmyCount(count+1);
-  }
-  //reset count
-  function reset(){
-    setmyCount(0);
-  }
-  //decrement
-  function decrement(){
-    setmyCount(count-1);
-  }
+//   function increment(){
+//     setmyCount(count+1);
+//   }
+//   //reset count
+//   function reset(){
+//     setmyCount(0);
+//   }
+//   //decrement
+//   function decrement(){
+//     setmyCount(count-1);
+//   }
 
-  //function create random numbers
+//   //function create random numbers
 
-  function randomGen(){
-    var r=Math.floor(Math.random()*100);
-    setRandom(r);
+//   function randomGen(){
+//     var r=Math.floor(Math.random()*100);
+//     setRandom(r);
 
-  }
+//   }
 
 
-  //appearence
-  return(
-    <div className="main">
+//   //appearence
+//   return(
+//     <div className="main">
 
-      <div className="counter">
-        <h3>Counter</h3>
-        <h1>{count}</h1>
-        <button onClick={decrement}>Dec</button>
-        <button onClick={reset}>Reset</button>
-        <button onClick={increment}>Inc</button>
-      </div>
+//       <div className="counter">
+//         <h3>Counter</h3>
+//         <h1>{count}</h1>
+//         <button onClick={decrement}>Dec</button>
+//         <button onClick={reset}>Reset</button>
+//         <button onClick={increment}>Inc</button>
+//       </div>
      
 
-      <div className="random">
-        <h3>Random number</h3>
-        <h1>{random}</h1>
-        <button onClick={randomGen}>Create</button>
-      </div>
+//       <div className="random">
+//         <h3>Random number</h3>
+//         <h1>{random}</h1>
+//         <button onClick={randomGen}>Create</button>
+//       </div>
 
-    </div>
+//     </div>
     
-  )
+//   )
 
 
-}
+// }
 
-root.render(
-  <Counter/>
-)
+// root.render(
+//   <Counter/>
+// )
 
 
 

@@ -1,4 +1,4 @@
-/*body {
+body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,7 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-*/
+
 
 /*
 h1{
@@ -95,7 +95,7 @@ a{
 
 /* Counter APP Styles */
 
-.main{
+/* .main{
   margin-top: 100px;
   display: flex;
   flex-direction: column;
@@ -105,7 +105,7 @@ a{
 }
 .counter{
   background-color: #B6FFCE;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   text-align: center;
   padding: 30px;
 }
@@ -131,4 +131,63 @@ a{
   border: none;
   font-weight: bold;
   padding:  10px 20px;
+} */
+
+.shopping{
+  height: 60vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
 }
+
+/*-------ShoppingList-------*/
+.box{
+  /* border: 1px solid black; */
+  padding: 20px;
+}
+.box h3{
+  padding: 5px;
+  text-align: center;
+  border-radius: 3px;
+}
+.box input{
+  padding: 6px 0px;
+  margin-right: 8px;
+}
+.box button{
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  background-color: #7C00FE;
+  color: white;
+}
+.mainList{
+  padding: 20px;
+  background-color: #F1F6F9;
+  border-radius: 3px;
+}
+.list_item{
+  width: 100%;
+  height: 35px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.list_item li{
+  /* border: 1px solid black; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.list_item button{
+  border: none;
+  font-size: 16px;
+  color: #7C00FE;
+  background-color: transparent;
+}
+
